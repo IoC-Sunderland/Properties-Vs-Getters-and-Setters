@@ -5,7 +5,9 @@ In Java these are known as Access level modifiers.
 
 Access level modifiers determine whether other classes can use a particular field or invoke a particular method (https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html).
 
-We can mimic these access modifiers in Python classes but they are not strictly enforced. See class example: underscores_in_python
+We can mimic these access modifiers in Python classes but they are not strictly enforced. 
+
+See class example: <strong>Underscores_in_Python</strong>
 
 # Java Style Vs Python Style Classes
 Here we create a Java Style class in Python i.e. a class with Public, "Private" and "Protected" instance attributes.

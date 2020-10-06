@@ -42,7 +42,7 @@ p1.x = p1.x + p2.x
 print(p1.x) # 4758
 
 
-class underscores_in_python():
+class Underscores_in_Python():
     ''' Demonstrate the use of Public, "Private" and "Protected" instance variables '''
     def __init__(self):
         self.foo = 10 # Public instance attribute
@@ -51,7 +51,7 @@ class underscores_in_python():
 
 # Note: The __ preceeding a variable is known as a class local reference. It's intention is not to make variables "Private" at all.
 
-t = underscores_in_python()
+t = Underscores_in_Python()
 
 # Note: dir() Returns the list of names in the current local scope
 
