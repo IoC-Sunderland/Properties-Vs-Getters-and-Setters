@@ -22,8 +22,6 @@ The use of the @property decorator allows getter and setter methods to be invoke
 See example: <strong>Properties</strong>
 
 # Getters and Setters
-In other OOP languages such as Java, getter and setter methods are used to enable access to private instnace variables.
+In other OOP languages such as Java, getter and setter methods are used to enable access to private instance variables. This enables the OOP concept of Encapsulation (the bundling together of data, and the methods that operate on that data).
 
 In Python we don't enforce this and instance variables can be public. However, we can mimic this pattern by implementing Python Properties if required (see above).
-
-
