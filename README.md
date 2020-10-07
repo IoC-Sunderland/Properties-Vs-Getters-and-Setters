@@ -13,3 +13,17 @@ See class example: <strong>Underscores_in_Python</strong>
 Here we create a Java Style class in Python i.e. a class with Public, "Private" and "Protected" instance attributes.
 
 We then show how we can write the same class in Python without access modifiers.
+
+# Properties
+The use of the @property decorator allows getter and setter methods to be invoked automatically when an instance attribute is accessed.
+
+@property decorator can be added after code has already been written if we need to add getters and setters for some reason i.e. change of implementation. 
+
+See example: <strong>Properties</strong>
+
+# Getters and Setters
+In other OOP languages such as Java, getter and setter methods are used to enable access to private instnace variables.
+
+In Python we don't enforce this and instance variables can be public. However, we can mimic this pattern by implementing Python Properties if required (see above).
+
+

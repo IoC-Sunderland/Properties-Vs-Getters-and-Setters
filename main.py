@@ -64,3 +64,48 @@ print(t._bar) # 20
 # print(t._Test__baz) # 30
 # t._Test__baz = 50
 # print(t._Test__baz) # 50
+print('\n')
+
+### Properties
+print('***Standard Class')
+
+# A standard class
+class OurClass:
+
+    def __init__(self, a):
+        self.OurAtt = a # Public instance attribute
+        
+
+x = OurClass(10)
+print(x.OurAtt) # 10
+x.OurAtt = 1001
+print(x.OurAtt) # 1001
+
+
+### Properties
+print('***Using Properties')
+class OurClass:
+
+    def __init__(self, a):
+        self.OurAtt = a
+
+    @property # Converts dotted access to method calls
+    def OurAtt(self):
+        return self.__OurAtt
+
+    @OurAtt.setter
+    def OurAtt(self, val):
+        if val < 0:
+            self.__OurAtt = 0
+        elif val > 1000:
+            self.__OurAtt = 1000
+        else:
+            self.__OurAtt = val
+
+
+x = OurClass(10)
+print(x.OurAtt)
+x.OurAtt = 1001 # When setting an attribute the setter method is called automatically
+print(x.OurAtt) # 1000
+x.OurAtt = -10
+print(x.OurAtt) # 0
