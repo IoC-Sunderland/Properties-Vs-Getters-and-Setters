@@ -4,7 +4,7 @@ class JavaStyle:
     attributes and Getters and Setters'''
 
     def __init__(self,x):
-        self._x = x
+        self._x = x # _x is Protected
 
     def get_x(self):
         return self._x
@@ -30,7 +30,7 @@ class PythonicStyle():
     ''' The JavaStyle class refactored in a Pythonic way'''
     
     def __init__(self,x):
-        self.x = x
+        self.x = x # Public attribute
 
 
 p1 = PythonicStyle(42)

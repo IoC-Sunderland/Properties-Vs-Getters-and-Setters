@@ -3,7 +3,12 @@ Other OO languages such as Java have the concept of Public, Private and Protecte
 
 In Java these are known as Access level modifiers.
 
-Access level modifiers determine whether other classes can use a particular field or invoke a particular method (https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html).
+Access level modifiers determine whether other classes can use a particular field or invoke a particular method.
+
+Table:
+<img src="img/Access Modifiers.png">
+
+Link:(https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html).
 
 We can mimic these access modifiers in Python classes but they are not strictly enforced. 
 
